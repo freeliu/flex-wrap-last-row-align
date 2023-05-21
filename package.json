@@ -1,0 +1,30 @@
+{
+  "name": "@freeliu/vue-flex-wrap-last-row-align",
+  "version": "1.0.0",
+  "description": "This is A vue plugin that add a custom cirective(v-flex-wrap-align) to handdle css flex-wrap last row items align with above ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/freeliu/vue-flex-wrap-last-row-align.git"
+  },
+  "keywords": [
+    "flex-wrap",
+    "space-between",
+    "css",
+    "vue",
+    "last-row",
+    "last-row-align"
+  ],
+  "author": "@freeliu",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/freeliu/vue-flex-wrap-last-row-align/issues"
+  },
+  "homepage": "https://github.com/freeliu/vue-flex-wrap-last-row-align#readme",
+  "devDependencies": {
+    "prettier": "^2.8.8"
+  }
+}
