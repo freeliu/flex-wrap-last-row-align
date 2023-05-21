@@ -30,7 +30,7 @@ app.use(flexWrapAlign)
 }
 .item {
   height: 120px;
-  height: 120px;
+  width: 120px;
   background-color: skyblue;
 }
 </style>
