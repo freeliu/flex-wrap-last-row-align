@@ -1,6 +1,6 @@
 {
   "name": "@freeliu/vue-flex-wrap-last-row-align",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "This is A vue plugin that add a custom cirective(v-flex-wrap-align) to handdle css flex-wrap last row items align with above ",
   "main": "index.js",
   "scripts": {
