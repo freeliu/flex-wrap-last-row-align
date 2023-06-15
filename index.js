@@ -1,6 +1,6 @@
 function wrapAlign(el) {
   let containerWidth = el?.clientWidth;
-  // clientWidth  clientWidth=width- 2* border-width
+  // clientWidth clientWidth=width- 2* border-width
   if (!el.firstElementChild) {
     return;
   }

@@ -1,18 +1,19 @@
 # flex-wrap-last-row-align
-Handle css flex-wrap last row align width above
+This is A vue plugin that adds a custom directive(v-flex-wrap-align) to handle css flex-wrap last row items align with above
 
 ##  Install
 
 ```sh
-npm i @freeliu/vue-flex-wrap-last-row-align
+npm i vue-flex-wrap-last-row-align
 ```
 
 ##  Usage
 ```js
 // main.js || main.ts
-import flexWrapAlign from "@/plugin/flex-wrap-align";
+import vueFlexWrapLastRowAlign from "vue-flex-wrap-last-row-align";
 const app = createApp(App)
-app.use(flexWrapAlign)
+app.use(vueFlexWrapLastRowAlign)
+app.mount("#app")
 ```
 ```vue
 <template>
@@ -26,7 +27,7 @@ app.use(flexWrapAlign)
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
-  row-gap: 20px;
+  gap: 20px;
 }
 .item {
   height: 120px;
